@@ -3,7 +3,7 @@
 
 [<img src="http://rcdcapital.com/wp-content/uploads/2016/02/Hard-Money-Icon-3.png" width=250>](http://rcdcapital.com/wp-content/uploads/2016/02/Hard-Money-Icon-3.png)
 
-## Screenshots
+## Demo
 [<img src="http://i.imgur.com/gucXCIJ.gif" width=200>](http://i.imgur.com/gucXCIJ.gif)
 
 ## License
