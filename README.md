@@ -1,7 +1,6 @@
 # Just-The-Tip
 
-
-[<img src="http://rcdcapital.com/wp-content/uploads/2016/02/Hard-Money-Icon-3.png" width=250>](http://rcdcapital.com/wp-content/uploads/2016/02/Hard-Money-Icon-3.png)
+A simple app to help you calculate the tip on any order.
 
 ## Demo
 [<img src="http://i.imgur.com/gucXCIJ.gif" width=200>](http://i.imgur.com/gucXCIJ.gif)
