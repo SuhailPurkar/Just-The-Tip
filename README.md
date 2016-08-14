@@ -3,6 +3,9 @@
 
 [<img src="http://rcdcapital.com/wp-content/uploads/2016/02/Hard-Money-Icon-3.png" width=500>](http://rcdcapital.com/wp-content/uploads/2016/02/Hard-Money-Icon-3.png)
 
+## Screenshots
+[<img src="http://i.imgur.com/lri88nS.png" width=500>](http://i.imgur.com/lri88nS.png)
+
 ## License
 Presidents 2048 is licensed under the MIT license.
 
