@@ -4,7 +4,7 @@
 [<img src="http://rcdcapital.com/wp-content/uploads/2016/02/Hard-Money-Icon-3.png" width=250>](http://rcdcapital.com/wp-content/uploads/2016/02/Hard-Money-Icon-3.png)
 
 ## Screenshots
-[<img src="http://i.imgur.com/lri88nS.png" width=500>](http://i.imgur.com/lri88nS.png)
+[<img src="http://i.imgur.com/gucXCIJ.gif" width=500>](http://i.imgur.com/gucXCIJ.gif)
 
 ## License
 [![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
