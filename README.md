@@ -1,7 +1,7 @@
 # Just-The-Tip
 
 A simple app to help you calculate the tip on any order.
-
+ 
 ## Demo
 The gif was recorded on a Android 5.1.1 KitKat device (API Level 22).
 
