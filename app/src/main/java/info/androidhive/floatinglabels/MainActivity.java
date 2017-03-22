@@ -248,9 +248,12 @@ public class MainActivity extends AppCompatActivity {
             } else {
                 inputLayoutEmail.setErrorEnabled(false);
                 tipPercent = Double.parseDouble(inputTip.getText().toString());
-                TextView tipAmt = (TextView)findViewById(R.id.tip);
 
-                tipAmt.setText("$"+ ( (totalBill * (tipPercent/100))));
+                TextView tipAmt = (TextView)findViewById(R.id.tip);
+                Double finalTipAmt = totalBill * (tipPercent/100);
+                Double.parseDouble(new DecimalFormat("##.####").format(finalTipAmt));
+
+                tipAmt.setText("$"+ finalTipAmt);
 
             }
 

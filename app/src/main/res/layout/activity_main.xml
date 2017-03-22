@@ -103,7 +103,7 @@
             android:orientation="horizontal"
             >
 
-            <fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+           <!-- <fr.castorflex.android.smoothprogressbar.SmoothProgressBar
                 xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:layout_width="match_parent"
@@ -119,7 +119,7 @@
                 app:spb_progressiveStart_activated="true"
                 app:spb_progressiveStart_speed="1.5"
                 app:spb_progressiveStop_speed="3.4"
-                />
+                /> -->
 
         </LinearLayout>
         <LinearLayout
@@ -160,183 +160,183 @@
             android:orientation="horizontal"
             >
 
-            <fr.castorflex.android.smoothprogressbar.SmoothProgressBar
-                xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:app="http://schemas.android.com/apk/res-auto"
+            <!--  <fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+                  xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:indeterminate="true"
+                  app:spb_sections_count="4"
+                  app:spb_color="#0c0838"
+                  app:spb_speed="1.75"
+                  app:spb_stroke_width="4dp"
+                  app:spb_stroke_separator_length="1dp"
+                  app:spb_reversed="false"
+                  app:spb_mirror_mode="false"
+                  app:spb_progressiveStart_activated="true"
+                  app:spb_progressiveStart_speed="1.5"
+                  app:spb_progressiveStop_speed="3.4"
+                  /> -->
+
+          </LinearLayout>
+
+          <LinearLayout
+
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+
+              android:orientation="horizontal"
+              android:paddingLeft="24dp"
+              android:paddingRight="36dp"
+              android:paddingTop="24dp"
+              >
+
+              <TextView
+                  android:textColor="#000000"
+                  android:textSize="16sp"
+                  android:text="Bill Before Tip"
+                  android:layout_weight="1"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content" />
+              <TextView
+                  android:id="@+id/bill_before_tip"
+                  android:gravity="right"
+                  android:textColor="#000000"
+                  android:textSize="16sp"
+                  android:text="$0.00"
+                  android:layout_weight="1"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content" />
+
+          </LinearLayout>
+
+          <LinearLayout
+
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingTop="8dp"
+              android:orientation="horizontal"
+              >
+
+              <!--  <fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:indeterminate="true"
+                    app:spb_sections_count="4"
+                    app:spb_color="#0c0838"
+                    app:spb_speed="1.75"
+                    app:spb_stroke_width="4dp"
+                    app:spb_stroke_separator_length="1dp"
+                    app:spb_reversed="false"
+                    app:spb_mirror_mode="false"
+                    app:spb_progressiveStart_activated="true"
+                    app:spb_progressiveStart_speed="1.5"
+                    app:spb_progressiveStop_speed="3.4"
+                    /> -->
+
+            </LinearLayout>
+
+            <LinearLayout
+
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:indeterminate="true"
-                app:spb_sections_count="4"
-                app:spb_color="#0c0838"
-                app:spb_speed="1.75"
-                app:spb_stroke_width="4dp"
-                app:spb_stroke_separator_length="1dp"
-                app:spb_reversed="false"
-                app:spb_mirror_mode="false"
-                app:spb_progressiveStart_activated="true"
-                app:spb_progressiveStart_speed="1.5"
-                app:spb_progressiveStop_speed="3.4"
-                />
 
-        </LinearLayout>
-
-        <LinearLayout
-
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-
-            android:orientation="horizontal"
-            android:paddingLeft="24dp"
-            android:paddingRight="36dp"
-            android:paddingTop="24dp"
+                android:orientation="horizontal"
+                android:paddingLeft="24dp"
+                android:paddingRight="36dp"
+                android:paddingTop="24dp"
             >
 
-            <TextView
-                android:textColor="#000000"
-                android:textSize="16sp"
-                android:text="Bill Before Tip"
-                android:layout_weight="1"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content" />
-            <TextView
-                android:id="@+id/bill_before_tip"
-                android:gravity="right"
-                android:textColor="#000000"
-                android:textSize="16sp"
-                android:text="$0.00"
-                android:layout_weight="1"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content" />
+                <TextView
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:text="Total Tip"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tip"
+                    android:gravity="right"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:text="$0.00"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
 
-        </LinearLayout>
+            </LinearLayout>
 
-        <LinearLayout
+            <LinearLayout
 
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="8dp"
-            android:orientation="horizontal"
-            >
-
-            <fr.castorflex.android.smoothprogressbar.SmoothProgressBar
-                xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:indeterminate="true"
-                app:spb_sections_count="4"
-                app:spb_color="#0c0838"
-                app:spb_speed="1.75"
-                app:spb_stroke_width="4dp"
-                app:spb_stroke_separator_length="1dp"
-                app:spb_reversed="false"
-                app:spb_mirror_mode="false"
-                app:spb_progressiveStart_activated="true"
-                app:spb_progressiveStart_speed="1.5"
-                app:spb_progressiveStop_speed="3.4"
-                />
+                android:paddingTop="8dp"
+                android:orientation="horizontal"
+                >
 
-        </LinearLayout>
+                <!--  <fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+                      xmlns:android="http://schemas.android.com/apk/res/android"
+                      xmlns:app="http://schemas.android.com/apk/res-auto"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:indeterminate="true"
+                      app:spb_sections_count="4"
+                      app:spb_color="#0c0838"
+                      app:spb_speed="1.75"
+                      app:spb_stroke_width="4dp"
+                      app:spb_stroke_separator_length="1dp"
+                      app:spb_reversed="false"
+                      app:spb_mirror_mode="false"
+                      app:spb_progressiveStart_activated="true"
+                      app:spb_progressiveStart_speed="1.5"
+                      app:spb_progressiveStop_speed="3.4"
+                      /> -->
 
-        <LinearLayout
+              </LinearLayout>
 
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+              <LinearLayout
 
-            android:orientation="horizontal"
-            android:paddingLeft="24dp"
-            android:paddingRight="36dp"
-            android:paddingTop="24dp"
-        >
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
 
-            <TextView
-                android:textColor="#000000"
-                android:textSize="16sp"
-                android:text="Total Tip"
-                android:layout_weight="1"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content" />
-            <TextView
-                android:id="@+id/tip"
-                android:gravity="right"
-                android:textColor="#000000"
-                android:textSize="16sp"
-                android:text="$0.00"
-                android:layout_weight="1"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content" />
+                  android:orientation="horizontal"
+                  android:paddingLeft="24dp"
+                  android:paddingRight="36dp"
+                  android:paddingTop="24dp"
+                  android:paddingBottom="24dp">
 
-        </LinearLayout>
+                  <TextView
+                      android:textColor="#000000"
+                      android:textSize="16sp"
+                      android:text="Tip Per Person"
+                      android:layout_weight="1"
+                      android:layout_width="0dp"
+                      android:layout_height="wrap_content" />
+                  <TextView
+                      android:id="@+id/tipPerPerson"
+                      android:gravity="right"
+                      android:textColor="#000000"
+                      android:textSize="16sp"
+                      android:text="$0.00"
+                      android:layout_weight="1"
+                      android:layout_width="0dp"
+                      android:layout_height="wrap_content" />
 
-        <LinearLayout
-
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="8dp"
-            android:orientation="horizontal"
-            >
-
-            <fr.castorflex.android.smoothprogressbar.SmoothProgressBar
-                xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:app="http://schemas.android.com/apk/res-auto"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:indeterminate="true"
-                app:spb_sections_count="4"
-                app:spb_color="#0c0838"
-                app:spb_speed="1.75"
-                app:spb_stroke_width="4dp"
-                app:spb_stroke_separator_length="1dp"
-                app:spb_reversed="false"
-                app:spb_mirror_mode="false"
-                app:spb_progressiveStart_activated="true"
-                app:spb_progressiveStart_speed="1.5"
-                app:spb_progressiveStop_speed="3.4"
-                />
-
-        </LinearLayout>
-
-        <LinearLayout
-
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-
-            android:orientation="horizontal"
-            android:paddingLeft="24dp"
-            android:paddingRight="36dp"
-            android:paddingTop="24dp"
-            android:paddingBottom="24dp">
-
-            <TextView
-                android:textColor="#000000"
-                android:textSize="16sp"
-                android:text="Tip Per Person"
-                android:layout_weight="1"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content" />
-            <TextView
-                android:id="@+id/tipPerPerson"
-                android:gravity="right"
-                android:textColor="#000000"
-                android:textSize="16sp"
-                android:text="$0.00"
-                android:layout_weight="1"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content" />
-
-        </LinearLayout>
+              </LinearLayout>
 
 
-        <Button android:id="@+id/btn_signup"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/btn_refresh"
-            android:background="@color/colorPrimary"
-            android:layout_marginBottom="40dp"
-            android:textColor="@android:color/white"/>
+              <Button android:id="@+id/btn_signup"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:text="@string/btn_refresh"
+                  android:background="@color/colorPrimary"
+                  android:layout_marginBottom="40dp"
+                  android:textColor="@android:color/white"/>
 
 
-    </LinearLayout>
+          </LinearLayout>
 
 
 
@@ -348,4 +348,4 @@
 
 
 
-</android.support.design.widget.CoordinatorLayout>
+      </android.support.design.widget.CoordinatorLayout>

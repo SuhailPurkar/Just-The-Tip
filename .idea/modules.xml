@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FloatingLabels.iml" filepath="$PROJECT_DIR$/FloatingLabels.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Just-The-Tip.iml" filepath="$PROJECT_DIR$/Just-The-Tip.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
