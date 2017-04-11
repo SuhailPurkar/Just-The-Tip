@@ -3,9 +3,9 @@
 A simple app to help you calculate the tip on any order.
  
 ## Demo
-The gif was recorded on a Android 5.1.1 KitKat device (API Level 22).
+This gif was recorded on a Android 7.0 Nougat device (API Level 25).
 
-[<img src="http://i.imgur.com/gucXCIJ.gif" width=200>](http://i.imgur.com/gucXCIJ.gif)
+[<img src="http://i.imgur.com/rYkTK3i.gif" width=200>](http://i.imgur.com/rYkTK3i.gif)
 
 ## License
 [![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  <img src="http://i.imgur.com/HAZWeo7.png" height = "51">
